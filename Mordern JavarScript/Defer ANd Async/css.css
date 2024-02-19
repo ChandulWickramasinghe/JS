@@ -1,0 +1,13 @@
+h1{
+    font-family: serif;
+    text-align: center;
+}
+img{
+    border: 8px solid gray;
+    align-items: center;
+}
+p{
+    padding:10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}

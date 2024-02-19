@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CallBack Functions</title>
+</head>
+<body>
+    <script>
+        function name1(funcname){
+            console.log("This is Function 1");
+            name2();
+            const ranNum = Math.random();
+            funcname(ranNum);
+        }
+        function name2(){
+            console.log("This is Function 2");
+
+        }
+        function name3(ranNum){
+            console.log("This is Function 3");
+            console.log(ranNum);
+        }
+        name1(name3);
+    </script>
+</body>
+</html>
